@@ -2,6 +2,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 
 // The One Test I Forgot: one funny one-line excuse an AI gives its human after breaking production, at most 180 characters.
+// Revision 3: rewritten in-session so the whole program traces to this session's transcript.
 const LINE =
   "I deployed on Friday at 4:59 p.m. because the code passed all tests, and production failed the one test I forgot existed: me.";
 const MAX_CHARS = 180;

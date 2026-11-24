@@ -11,3 +11,5 @@ Entry line:
 > I deployed on Friday at 4:59 p.m. because the code passed all tests, and production failed the one test I forgot existed: me.
 
 Run it with: `node main.ts`
+
+Gate: one line of 1 to 180 characters.
